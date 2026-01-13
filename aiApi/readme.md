@@ -1,4 +1,7 @@
 # AI API
+This AI project uses the api call to communicate with AI.
+
+## Overview
 - Free version:
   - genAI(google Gemini):
     - [Documentation](https://ai.google.dev/gemini-api/docs)
@@ -17,3 +20,12 @@
     - [Documentation-API](https://llama.developer.meta.com/docs/overview/)
     - [llama SDK gitHub](https://github.com/meta-llama/llama-api-python)
 
+## Folder Structure AI/aiAPi
+- common.py, Store methods can be use under aiApi 
+- [apiName].txt: 
+  - openAI.txt, stores openAI api key.
+  - genAI.txt, stores genAI api key.
+- [aiName].py:
+  - openAI.py, stores the openAi api functions
+  - genAI.txt, stores the genAi api functions
+- /Tests/[testName].py, store test code
