@@ -1,6 +1,7 @@
 """
 Store methods can be use under aiApi
 """
+import os
 
 
 def get_file_content(file):
@@ -12,3 +13,13 @@ def get_file_content(file):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
     return file_content_string
+
+
+def get_env_key(name):
+    api_key = None
+    try:
+        api_key = os.environ[name]
+        print(f"API Key: {api_key}")
+    except KeyError:
+        print("Error: API_KEY environment variable not set.")
+    return api_key
