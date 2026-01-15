@@ -1,5 +1,11 @@
 # AI 
-In progress...
+In progress...\
+
+Artificial intelligence (AI) is a field of computer science focused on building systems that can perform tasks 
+normally require human intelligence, such as recognizing patterns, understanding language, making decisions, 
+and solving problems. In simple terms, it means computers and machines using data and algorithms to learn 
+from experience and then act or make recommendations on their own within specific tasks. ([wiki](https://en.wikipedia.org/wiki/Artificial_intelligence))
+
 
 ## Popular AIs
 - [ChatGPT (openAI)](https://chatgpt.com/)
