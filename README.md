@@ -131,3 +131,26 @@ Result:<br>
   - GitHub Copilot will suggest code completions inline
   - Use Tab to accept suggestions, or Ctrl + ] / Ctrl + [ to cycle through alternatives
 
+#### How to use GitHub Copilot in VS Code
+- Pre-requisites:
+  - VS Code installed
+  - GitHub account with Copilot subscription
+- Open VS Code
+  - Go to Extensions (Ctrl+Shift+X)
+    - Search for "GitHub Copilot"
+    - Click Install
+    - After installation, you may need to reload VS Code
+- Sign in to GitHub
+  - A browser window opens
+  - Authorize GitHub Copilot
+  - Return to VS Code
+  - signing in to GitHub
+- Enabling Copilot, Look at the bottom-right status bar:
+  - Click the Copilot icon
+  - Select "Enable GitHub Copilot"
+  - enabling Copilot features
+- Testing it out
+  - Open a Python file : `github_copilot_test.py`
+  - Start typing code or comments describing what you want
+  - GitHub Copilot will suggest code completions inline
+  - Use Tab to accept suggestions, or Ctrl + ] / Ctrl + [ to cycle through alternatives
