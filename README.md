@@ -72,4 +72,62 @@ from experience and then act or make recommendations on their own within specifi
 | 5      | Copilot    | -2.5           | 1    | 3.5    | 1-4     |
 | 6      | Grok       | -4.5           | 0    | 4.5    | 0-5     |
 
+### AI - For Python/Robot Framework developers
+Ask Claude with "using borda ranking system search all popular AIs with criteria, the best for developers who are using python/robot" <br>
+
+Result:<br>
+- Top AIs:
+  - GitHub Copilot
+  - Cursor
+  - Claude (Anthropic)
+  - Windsurf (formerly Codeium)
+  - ChatGPT (OpenAI)
+  - Qodo (formerly CodiumAI)
+  - Tabnine
+  - Amazon Q Developer (CodeWhisperer)
+  - JetBrains AI Assistant
+  - Aider
+- Criteria:
+  - Python Code Generation Quality
+  - Test Automation Support (Robot Framework, pytest, selenium)
+  - IDE Integration (VS Code, PyCharm, JetBrains)
+  - Code Completion Speed
+  - Project-Wide Context Awareness
+  - Debugging & Error Resolution
+  - Documentation Generation
+  - Cost/Value (Free tier + paid pricing)
+  - Robot Framework Specific Support
+  - Learning Curve (Ease of use)
+- Final Rank:
+    1. Claude
+    2. GitHub Copilot
+    3. Cursor
+    4. ChatGPT
+    5. Windsurf
+    6. Qodo
+    7. JetBrains AI
+    8. Amazon Q
+    9. Aider
+    10. Tabnine
+
+- **Final Verdict**
+  - **Claude** for test design, complex test generation, and documentation
+  - **GitHub Copilot** for daily IDE coding with fast autocomplete
+  - **ChatGPT** as backup for learning and quick questions
+
+#### How to use GitHub Copilot in PyCharm
+- Pre-requisites:
+  - PyCharm IDE (Professional or Community), version 2021.2+
+  - GitHub account with Copilot subscription
+- Open PyCharm
+  - Go to Settings/Preferences > Plugins > GitHub Copilot
+  - Install and restart IDE
+  - Tools → GitHub Copilot → Login to GitHub (Sign in to GitHub account)
+    - A browser window will open asking you to authorize JetBrains + GitHub.
+    - Once you approve, PyCharm will show : Connected as your‑GitHub‑username
+- Testing it out
+  - Open a Python file : `github_copilot_test.py`
+  - Start typing code or comments describing what you want
+  - GitHub Copilot will suggest code completions inline
+  - Use Tab to accept suggestions, or Ctrl + ] / Ctrl + [ to cycle through alternatives
 
