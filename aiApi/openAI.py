@@ -1,12 +1,15 @@
 from openai import OpenAI
 import common
 
+default_file = 'openAI.txt'      # Replace with your actual file path
+default_env = 'OPENAI_API_KEY'   # Replace with your actual environment variable name
+
 
 def get_openai_client(source='file'):
     if source == 'file':
-        key = common.get_api_key('openAI.txt', 'file')
+        key = common.get_api_key(default_file, 'file')
     elif source == 'env':
-        key = common.get_api_key('openAI', 'env')
+        key = common.get_api_key(default_env, 'env')
     return OpenAI(api_key=key)
 
 

@@ -2,11 +2,15 @@ from google import genai
 import common
 
 
+default_file = 'genAI.txt'      # Replace with your actual file path
+default_env = 'GENAI_API_KEY'   # Replace with your actual environment variable name
+
+
 def get_genai_client(source='file'):
     if source == 'file':
-        key = common.get_api_key('genAI.txt', 'file')
+        key = common.get_api_key(default_file, 'file')
     elif source == 'env':
-        key = common.get_api_key('genAI', 'env')
+        key = common.get_api_key(default_env, 'env')
     return genai.Client(api_key=key)
 
 

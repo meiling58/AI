@@ -18,8 +18,8 @@ def get_file_content(file):
 def get_env_key(name):
     api_key = None
     try:
-        api_key = os.environ[name]
-        print(f"API Key: {api_key}")
+        api_key = os.environ.get(name)
+        # print(f"API Key: {api_key}")
     except KeyError:
         print("Error: API_KEY environment variable not set.")
     return api_key
