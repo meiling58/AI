@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # ========================
 
 # os.environ["GOOGLE_API_KEY"] = "Your API Key Here"  # Replace this! if you not using env variables
-GOOGLE_API_KEY = os.environ.get("GENAI_API_KEY")
+GOOGLE_API_KEY = os.environ.get("GENAI_API_KEY")  # GOOGLE_API_KEY
 print(GOOGLE_API_KEY)
 
 # ========================
@@ -177,8 +177,8 @@ if __name__ == "__main__":
     print("=" * 50)
 
     # Define your research topic here
-    # research_topic = "AI Agents in Healthcare in 2024"  # ⬅️ CHANGE THIS TO ANY TOPIC
-    research_topic = "The ways from Philadelphia to Boston"  # ⬅️ CHANGE THIS TO ANY TOPIC
+    research_topic = "AI Agents in Healthcare in 2024"  # ⬅️ CHANGE THIS TO ANY TOPIC
+    # research_topic = "The ways from Philadelphia to Boston"  # ⬅️ CHANGE THIS TO ANY TOPIC
 
     # Update tasks with the topic
     research_task.description = research_task.description.format(topic=research_topic)
