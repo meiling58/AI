@@ -1,0 +1,6 @@
+# Requirements for myFirstAgentAI project
+# pr-requistites: python>=3.10 + to install the crewai-tools package
+crewai
+crewai-tools
+langchain-google-genai
+google-genai
