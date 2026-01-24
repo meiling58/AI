@@ -1,13 +1,32 @@
-# AI 
-In progress...\
+# Overview --In grogress...
+ This repo including AI relating information and projects
+ <details>
+  <summary> Repo Structure </summary>
+  TBD
+ </details>
 
+ <details>
+  <summary>Projects</summary>
+
+- [GitHubCopilotTest](https://github.com/meiling58/AI/tree/main/GitHubCopilotTest/readme.md): This project shows how to use GitHub Copilot with demo code.
+- [aiAPi](https://github.com/meiling58/AI/blob/main/aiApi/readme.md): This project demos communicate AIs by using api .
+- [myFirstAgentAI](https://github.com/meiling58/AI/blob/main/myFirstAgentAI/readme.md): This project including all basic knowledge and testing code for AI agents.
+- [QAAgent](): TBD
+- [searchEngine](): TBD
+ </details>
+
+<br>
+
+# AI 
 Artificial intelligence (AI) is a field of computer science focused on building systems that can perform tasks 
 normally require human intelligence, such as recognizing patterns, understanding language, making decisions, 
 and solving problems. In simple terms, it means computers and machines using data and algorithms to learn 
 from experience and then act or make recommendations on their own within specific tasks. ([wiki](https://en.wikipedia.org/wiki/Artificial_intelligence))
 
+<details>
 
-## Popular AIs
+<summary>Popular AIs</summary>
+
 - [ChatGPT (openAI)](https://chatgpt.com/)
 - [Gemini (Google)](https://gemini.google.com/)
 - [Claude (Anthropic)](https://claude.ai/)
@@ -18,8 +37,10 @@ from experience and then act or make recommendations on their own within specifi
 - [Perplexity AI](https://www.perplexity.ai/)
 - [Llama (Meta)](https://www.llama.com/)
 - [Synthesia AI](https://www.synthesia.io/)
+</details>
+<details>
+<summary>Comparison</summary>
 
-### Comparison
 - Manual searching "can you provide top 5 popular AIs" on chatGPT, Gemini, Claude, Copilot, Grok, Deepseek, Perplexity. 
   - No critical used, 5 points for 1st.
   - Final list
@@ -71,33 +92,36 @@ from experience and then act or make recommendations on their own within specifi
 | 4      | DeepSeek   | 0              | 2    | 2      | 2-3     |
 | 5      | Copilot    | -2.5           | 1    | 3.5    | 1-4     |
 | 6      | Grok       | -4.5           | 0    | 4.5    | 0-5     |
+</details>
 
-### AI - For Python/Robot Framework developers
-Ask Claude with "using borda ranking system search all popular AIs with criteria, the best for developers who are using python/robot" <br>
+<details>
+<summary>AI - For Python/Robot Framework developers</summary>
 
-Result:<br>
-- Top AIs:
-  - GitHub Copilot
-  - Cursor
-  - Claude (Anthropic)
-  - Windsurf (formerly Codeium)
-  - ChatGPT (OpenAI)
-  - Qodo (formerly CodiumAI)
-  - Tabnine
-  - Amazon Q Developer (CodeWhisperer)
-  - JetBrains AI Assistant
-  - Aider
-- Criteria:
-  - Python Code Generation Quality
-  - Test Automation Support (Robot Framework, pytest, selenium)
-  - IDE Integration (VS Code, PyCharm, JetBrains)
-  - Code Completion Speed
-  - Project-Wide Context Awareness
-  - Debugging & Error Resolution
-  - Documentation Generation
-  - Cost/Value (Free tier + paid pricing)
-  - Robot Framework Specific Support
-  - Learning Curve (Ease of use)
+- Ask Claude with "using borda ranking system search all popular AIs with criteria, the best for developers who are using python/robot" <br>
+- Result:<br>
+  - Top AIs:
+    - GitHub Copilot
+    - Cursor
+    - Claude (Anthropic)
+    - Windsurf (formerly Codeium)
+    - ChatGPT (OpenAI)
+    - Qodo (formerly CodiumAI)
+    - Tabnine
+    - Amazon Q Developer (CodeWhisperer)
+    - JetBrains AI Assistant
+    - Aider
+  - Criteria:
+    - Python Code Generation Quality
+    - Test Automation Support (Robot Framework, pytest, selenium)
+    - IDE Integration (VS Code, PyCharm, JetBrains)
+    - Code Completion Speed
+    - Project-Wide Context Awareness
+    - Debugging & Error Resolution
+    - Documentation Generation
+    - Cost/Value (Free tier + paid pricing)
+    - Robot Framework Specific Support
+    - Learning Curve (Ease of use)
+  
 - Final Rank:
     1. Claude
     2. GitHub Copilot
@@ -108,14 +132,16 @@ Result:<br>
     7. JetBrains AI
     8. Amazon Q
     9. Aider
-    10. Tabnine
-
+    10. Tabnine <br>
 - **Final Verdict**
   - **Claude** for test design, complex test generation, and documentation
   - **GitHub Copilot** for daily IDE coding with fast autocomplete
   - **ChatGPT** as backup for learning and quick questions
 
-#### How to use GitHub Copilot in PyCharm
+</details>
+
+<details><summary>How to use GitHub Copilot in PyCharm </summary>
+
 - Pre-requisites:
   - PyCharm IDE (Professional or Community), version 2021.2+
   - GitHub account with Copilot subscription
@@ -130,8 +156,10 @@ Result:<br>
   - Start typing code or comments describing what you want
   - GitHub Copilot will suggest code completions inline
   - Use Tab to accept suggestions, or Ctrl + ] / Ctrl + [ to cycle through alternatives
+  </details>
 
-#### How to use GitHub Copilot in VS Code
+<details><summary>How to use GitHub Copilot in VS Code</summary>
+
 - Pre-requisites:
   - VS Code installed
   - GitHub account with Copilot subscription
@@ -154,3 +182,5 @@ Result:<br>
   - Start typing code or comments describing what you want
   - GitHub Copilot will suggest code completions inline
   - Use Tab to accept suggestions, or Ctrl + ] / Ctrl + [ to cycle through alternatives
+  
+  </details>
